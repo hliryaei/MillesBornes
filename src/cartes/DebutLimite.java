@@ -1,15 +1,14 @@
 package cartes;
 
-public class FinLimite extends Limite {
+public class DebutLimite extends Limite {
 	@Override 
-
 	public String toString() {
-		return "Fin Limite";
+		return "Limite 50";
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) { 
 		return super.equals(obj);
-	}
+	} 
 
 }
